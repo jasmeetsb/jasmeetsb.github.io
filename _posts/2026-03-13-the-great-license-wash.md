@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "How Coding Agents Are Empowering Open Source But Can Turn Thier Best Practices Against Them"
+title: "How Coding Agents Are Empowering Open Source But Can Turn Their Best Practices Against Them"
 date: 2026-03-13
 ---
 
 *Your tests are your spec. Your spec is all an agent needs. Your license may be at risk.*
 
 **TL;DR:** The threshold for reconstructing software solely from its test suite has dropped dramatically. What once required hundreds of millions in justification, a small team with API credits can now attempt. **To test this, I deleted all implementation code from two popular open-source projects (100K+ GitHub stars each) and pointed a coding agent at their test suites with one objective: make the tests pass.** It rebuilt a CLI-based AI coding agent to 99.8% across 11,000+ tests and a whiteboarding app to 95%. The generated code has minimal overlap (1–10%) with the originals outside of spec-driven boilerplate — and in a clean room setup, can potentially be considered entirely new code, free from the original license.
-
 
 **Note:** *The views and opinions expressed in this post are my own and do not reflect those of my employer.*
 
