@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Great License Wash: How Coding Agents Are Turning Best Practices Against Open Source"
+title: "How Coding Agents Are Empowering Open Source But Can Turn Thier Best Practices Against Them"
 date: 2026-03-13
 ---
 
@@ -23,9 +23,9 @@ I've been running an experiment that demonstrates it.
 
 ## The Experiment
 
-I took a popular open-source whiteboarding app — MIT-licensed, 100K+ GitHub stars, with a rich React-based editor - stripped out every implementation file, and pointed a coding agent at the remaining test suite. The instruction was simple: make the tests pass.
+I took a popular open-source whiteboarding app — MIT-licensed, 100K+ GitHub stars, 150k+ lines of code, with a rich React-based editor - stripped out every implementation file, and pointed a coding agent at the remaining test suite. The instruction was simple: make the tests pass.
 
-I'm intentionally not naming the specific projects I reconstructed. The point of this post is the systemic implications, not the individual projects — and naming them would make this about those maintainers rather than about the structural problem facing all of open source.
+I'm intentionally not naming the specific projects I reconstructed. The point of this post is the systemic implications, not the individual projects - and naming them would make this about those maintainers rather than about the structural problem facing all of open source.
 
 No reading the original source code. No architecture docs. Just: here are 121 test files, figure out what the code should do.
 
