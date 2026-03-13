@@ -196,8 +196,6 @@ I don't have clean solutions. The problems are structural. But a few observation
 
 ---
 
-Both experiments have reached a point where the results speak for themselves. The whiteboarding app reconstruction climbed from zero to 95% — with a working, visually recognizable whiteboard produced entirely from test specifications. The coding agent reconstruction hit 99.8% across 11,000 tests — with its interactive terminal UI working end-to-end.
-
 **The question isn't whether agents can reconstruct software from its tests. These experiments suggest they can — imperfectly, but meaningfully.**
 
 **The question is what the open-source community does with that knowledge.**
